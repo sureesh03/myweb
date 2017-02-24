@@ -6,6 +6,6 @@ import junit.framework.TestCase;
 public class CalculatorTest extends TestCase {
 	Calculator cal = new Calculator();
 	public void testAdd(){
-		Assert.assertEquals(cal.add(10, 15), 25);
+		Assert.assertEquals(cal.add(10, 15), 20);
 	}
 }
